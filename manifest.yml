@@ -1,0 +1,5 @@
+---
+applications:
+ - name: PubMedScript
+   random-route: true
+   memory: 128M
