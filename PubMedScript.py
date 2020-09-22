@@ -107,8 +107,7 @@ def ConnectionDB2():
 def endConnection (conn):
     ibm_db.close(conn)
 
-def insertArrayDB2 (articoli): #ci va qualcosa come parametro di input
-#########In teoria come parametro di input ci va l'intero array ma sarebbe COSA BUONA E ANCHE GIUSTA ficcarci un articolo alla volta
+def insertArrayDB2 (articoli):
         for articolo in articoli:
             abstract_rep = " "
             titolo_rep = " "
